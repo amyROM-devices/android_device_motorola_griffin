@@ -118,7 +118,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.texture_cache_flushrate=0.4 \
     ro.opengles.version=196609 \
     debug.renderengine.backend=threaded \
-    debug.sf.recomputecrop=0
+    debug.sf.recomputecrop=0 \
+    ro.config.avoid_gfx_accel=true \
+    ro.vendor.qti.am.reschedule_service=true \
+    debug.egl.force_msaa=1 \
+    vendor.gralloc.enable_fb_ubwc=1
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
